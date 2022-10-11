@@ -28,7 +28,7 @@ public class Dvd implements Kolcsonozheto, Comparable<Dvd>{
     }
 
     @Override
-    public int compareTo(Dvd o) {
-        return 0;
+    public int compareTo(Dvd masikDvd) {
+        return this.hossz - masikDvd.hossz;
     }
 }

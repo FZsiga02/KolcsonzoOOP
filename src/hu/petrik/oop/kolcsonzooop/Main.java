@@ -48,6 +48,9 @@ public class Main {
         }
 
         Collections.sort(dvdk);
-        System.out.println();
+        for (Dvd d: dvdk){
+            System.out.println(d.megjelenitendoNev() + " " + d.getHossz());
+        }
+
     }
 }
